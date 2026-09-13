@@ -10,7 +10,9 @@ package main;
  */
 public class Algoritmos {
 public static void main(String[] args) {
+
    Menu menu = new Menu();
  menu.MenuPrincipal();
 }
 }
+
