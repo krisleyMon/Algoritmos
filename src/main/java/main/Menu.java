@@ -6,13 +6,6 @@ package main;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author krisl
- */
-/*package main;
-
-import javax.swing.JOptionPane;*/
 public class Menu {
 
     private int opcion;
@@ -26,21 +19,22 @@ public class Menu {
         Nivel5 n5 = new Nivel5();
 
         do {
-            opcion = Integer.parseInt(JOptionPane.showInputDialog(
-                    "MENÚ PRINCIPAL\n\n"
-                    + "1. Leer 8 números\n"
-                    + "2. Mostrar caracteres\n"
-                    + "3. Contar vocales\n"
-                    + "4. Sumar índices pares e impares\n"
-                    + "5. Contar cuántas veces aparece un número\n"
-                    + "6. Clasificar caracteres\n"
-                    + "7. Rotar arreglo a la derecha\n"
-                    + "8. Intercambiar dos índices\n"
-                    + "9. Verificar si está ordenado\n"
-                    + "10. Verificar si es capicúa\n"
-                    + "11. Salir\n\n"
-                    + "Seleccione una opción:"
-            ));
+            opcion = Integer.parseInt(JOptionPane.showInputDialog("""
+                                                                  MEN\u00da PRINCIPAL
+                                                                  
+                                                                  1. Leer 8 n\u00fameros
+                                                                  2. Mostrar caracteres
+                                                                  3. Contar vocales
+                                                                  4. Sumar \u00edndices pares e impares
+                                                                  5. Contar cu\u00e1ntas veces aparece un n\u00famero
+                                                                  6. Clasificar caracteres
+                                                                  7. Rotar arreglo a la derecha
+                                                                  8. Intercambiar dos \u00edndices
+                                                                  9. Verificar si est\u00e1 ordenado
+                                                                  10. Verificar si es capic\u00faa
+                                                                  11. Salir
+                                                                  
+                                                                  Seleccione una opci\u00f3n:"""));
 
             switch (opcion) {
 
